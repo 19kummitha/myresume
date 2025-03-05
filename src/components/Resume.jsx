@@ -10,13 +10,14 @@ export default function Resume() {
         style={{ border: "1px solid black" }}
       ></iframe>
       <br />
-      <a href="/resume.pdf" download="My_Resume.pdf">
-        <button
-          style={{ padding: "10px 20px", marginTop: "10px", cursor: "pointer" }}
-        >
-          Download Resume
-        </button>
-      </a>
+      <a href={`${import.meta.env.BASE_URL}resume.pdf`} download="My_Resume.pdf">
+  <button
+    style={{ padding: "10px 20px", marginTop: "10px", cursor: "pointer" }}
+  >
+    Download Resume
+  </button>
+</a>
+
     </div>
   );
 }
