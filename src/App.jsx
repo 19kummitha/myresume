@@ -4,7 +4,7 @@ import PRoutes from "./PRoutes";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/myresume"> 
       <Header />
       <div style={{ marginTop: "80px", padding: "20px" }}>
         <PRoutes />
