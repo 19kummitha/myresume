@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Loan Approval Prediction Using Machine Learning",
     technologies: "Python, Machine Learning",
-    image: "/loan.png",
+    image: "loan.png",
     description: [
       "Used various machine learning algorithms like Gaussian Naive Bayes, Random Forest, Decision Tree, KNN, and Logistic Regression.",
       "Gaussian Naive Bayes achieved superior accuracy.",
@@ -34,7 +34,7 @@ const projects = [
   {
     title: "E-Commerce Website",
     technologies: "HTML, CSS, JavaScript, TypeScript, C#",
-    image: "/ecommerce.png",
+    image: "ecommerce.png",
     github: "https://github.com/19kummitha/Re-Store",
     description: [
       "An application that shows products according to the user’s input.",
