@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Community Communication Website for a Residency",
     technologies: "C, Angular, ASP.Net",
-    image: "/community.png",
+    image: "community.png",
     github: "https://github.com/19kummitha/capstone",
     description: [
       "Weather Forecast API is used to display the current weather situation.",
