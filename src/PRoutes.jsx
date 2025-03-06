@@ -5,6 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Certifications from "./components/Certifications";
+import React from "react";
 export default function PRoutes() {
   return (
     <Routes>
