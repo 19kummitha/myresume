@@ -26,21 +26,36 @@ const projects = [
     title: "Loan Approval Prediction Using Machine Learning",
     technologies: "Python, Machine Learning",
     image: "/loan.png",
+    github:"https://github.com/19kummitha/FinalYearCoreProject",
     description: [
       "Used various machine learning algorithms like Gaussian Naive Bayes, Random Forest, Decision Tree, KNN, and Logistic Regression.",
       "Gaussian Naive Bayes achieved superior accuracy.",
     ],
   },
   {
-    title: "E-Commerce Website",
-    technologies: "HTML, CSS, JavaScript, TypeScript, C#",
+    title: "Re-Store",
+    technologies: "HTML, CSS, JavaScript, TypeScript, C#,Redux,",
     image: "/ecommerce.png",
     github: "https://github.com/19kummitha/Re-Store",
     description: [
-      "An application that shows products according to the user’s input.",
-      "This project includes only the frontend of an E-commerce website.",
+      "Re-Store is a full-stack web application designed for E-Commerce application",
+      "The project follows modern development practices using React (Vite) for the frontend and .NET 8 for the backend, with React-Redux for state-management and used stripe for payements.",
+      "It allows users to login/reg/ster into website and can add products into cart",
+      "Stripe payment gateway is used for payments."
     ],
   },
+  {
+    title: "ReActivities",
+    technologies: "React(vite), HTML,CSS,.NET 8, MobX, Typescript, CQRS, MediatR, SignalR, Sqlite",
+    image: "/ecommerce.png",
+    github: "https://github.com/19kummitha/Reactivities",
+    description: [
+      "Re-Store is a full-stack web application designed for E-Commerce application",
+      "The project follows modern development practices using React (Vite) for the frontend and .NET 8 for the backend, with React-Redux for state-management and used stripe for payements.",
+      "It allows users to login/reg/ster into website and can add products into cart",
+      "Stripe payment gateway is used for payments."
+    ]
+  }
 ];
 
 export default function Projects() {
