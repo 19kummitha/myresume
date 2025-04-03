@@ -1,5 +1,5 @@
 import { FaMobileAlt, FaEnvelope, FaLinkedin } from "react-icons/fa";
-
+import React from "react";
 export default function Contact() {
   return (
     <div className="flex flex-col items-center p-8">

@@ -1,5 +1,5 @@
 import "./Home.css"; // Import CSS file
-
+import React from "react";
 export default function Home() {
   return (
     <section className="home" id="home">

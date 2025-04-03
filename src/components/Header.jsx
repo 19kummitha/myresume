@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./Header.css"; // Import external CSS file
-
+import React from "react";
 export default function Header() {
   return (
     <nav className="navbar">

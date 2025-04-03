@@ -9,12 +9,12 @@ import {
   CardActions,
   Button,
 } from "@mui/material";
-
+import React from "react";
 const projects = [
   {
     title: "Community Communication Website for a Residency",
     technologies: "C, Angular, ASP.Net",
-    image: "/community.png",
+    image: "community.png",
     github: "https://github.com/19kummitha/capstone",
     description: [
       "Weather Forecast API is used to display the current weather situation.",
@@ -26,15 +26,14 @@ const projects = [
     title: "Loan Approval Prediction Using Machine Learning",
     technologies: "Python, Machine Learning",
     image: "/loan.png",
-    github:"https://github.com/19kummitha/FinalYearCoreProject",
     description: [
       "Used various machine learning algorithms like Gaussian Naive Bayes, Random Forest, Decision Tree, KNN, and Logistic Regression.",
       "Gaussian Naive Bayes achieved superior accuracy.",
     ],
   },
   {
-    title: "Re-Store",
-    technologies: "HTML, CSS, JavaScript, TypeScript, C#,Redux,",
+    title: "E-Commerce Website",
+    technologies: "HTML, CSS, JavaScript, TypeScript, C#",
     image: "/ecommerce.png",
     github: "https://github.com/19kummitha/Re-Store",
     description: [
